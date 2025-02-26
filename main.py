@@ -1,8 +1,70 @@
 import streamlit as st 
 from PIL import Image 
-import base64
-
 st.set_page_config(page_title="Product Management Portfolio", page_icon="🚀", layout="wide", initial_sidebar_state="collapsed")
+
+# Set dark theme for the entire application
+st.markdown("""
+    <style>
+    /* Main app background */
+    .stApp {
+        background-color: #0E1117;
+    }
+    
+    /* Text color */
+    body {
+        color: #FAFAFA;
+    }
+    
+    /* Sidebar */
+    .css-1d391kg {
+        background-color: #0E1117;
+    }
+    
+    /* Headers */
+    h1, h2, h3, h4, h5, h6 {
+        color: #FAFAFA !important;
+    }
+    
+    /* Paragraphs */
+    p {
+        color: #FAFAFA !important;
+    }
+    
+    /* Links */
+    a {
+        color: #00B4D8 !important;
+    }
+    
+    /* Buttons */
+    .stButton>button {
+        background-color: #00B4D8;
+        color: #0E1117;
+    }
+    
+    .stButton>button:hover {
+        background-color: #0077B6;
+        color: #FAFAFA;
+    }
+    
+    /* Input fields */
+    .stTextInput>div>div>input {
+        background-color: #262730;
+        color: #FAFAFA;
+    }
+    
+    /* Select boxes */
+    .stSelectbox>div>div>select {
+        background-color: #262730;
+        color: #FAFAFA;
+    }
+    
+    /* Slider */
+    .stSlider>div>div>div {
+        background-color: #00B4D8;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
