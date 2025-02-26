@@ -71,38 +71,6 @@ st.markdown("""
     footer {visibility: hidden;}
     </style>
     """, unsafe_allow_html=True)
-st.markdown(
-    """
-    <style>
-    .stApp{
-        background-color: #0E1117;
-        color: #FAFAFA;
-    }
-    
-     .css-1d391kg {
-        background-color: #0E1117;
-    }
-    .css-1d391kg h1, .css-1d391kg h2, .css-1d391kg h3, .css-1d391kg h4, .css-1d391kg h5, .css-1d391kg h6 {
-        color: #FAFAFA;
-    }
-    .css-1d391kg p {
-        color: #FAFAFA;
-    }
-    .css-1d391kg a {
-        color: #00B4D8;
-    }
-    .css-1d391kg .stButton button {
-        background-color: #00B4D8;
-        color: #0E1117;
-    }
-    .css-1d391kg .stButton button:hover {
-        background-color: #0077B6;
-        color: #FAFAFA;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 col1, col2 = st.columns([1,3])
 
